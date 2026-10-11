@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musics 2025-05-22</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #4a4a4a;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        h2 {
+            margin: 20px 0 15px;
+            font-size: 22px;
+            color: #2c3e50;
+        }
+
+        /* 播放器卡片 */
+        .player-card {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .player-card audio {
+            width: 100%;
+            margin: 15px 0;
+            outline: none;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            padding: 6px 14px;
+            border: 1px solid #3498db;
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+
+        .nav-links a:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .footer-link {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .footer-link a {
+            color: #7f8c8d;
+            text-decoration: none;
+        }
+
+        .footer-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* 歌曲列表表格 */
+        table {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a.song-link {
+            text-decoration: none;
+            color: #2196F3;
+            font-weight: bold;
+        }
+
+        a.song-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+            table, th, td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>🎵 Musics Lenovo 🎵</h1>
+
+<!-- 当前播放器区域 -->
+<div class="player-card">
+        <h2 class="song-title">鼎沸</h2>
+    <!-- 更改播放器URL的位置 -->
+    <audio controls autoplay>
+        <source src="http://music.lenovo.cn/MusicDir/Music0108/鼎沸.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <div class="nav-links">
+        <a href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/人间纵我.html">上一个</a>
+        <a href="http://music.lenovo.cn/MusicHtml/Music0108List.html">歌曲列表</a>
+        <a href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/巫山客——广播剧《二哈和他的白猫师尊》第二季先行ED.html">下一个</a>
+    </div>
+
+    <div class="footer-link">
+        <a href="http://music.lenovo.cn">MusicWeb</a>
+    </div>
+</div>
+
+<!-- 歌曲列表 -->
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>歌曲名称</th>
+        </tr>
+    </thead>
+    <tbody>
+    <!-- 插入歌曲的位置 -->
+        <tr><td>1</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/与我无关.html">与我无关</a></td></tr>
+        <tr><td>2</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/于是.html">于是</a></td></tr>
+        <tr><td>3</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/我只能离开.html">我只能离开</a></td></tr>
+        <tr><td>4</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/侧脸.html">侧脸</a></td></tr>
+        <tr><td>5</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/紫荆花盛开.html">紫荆花盛开</a></td></tr>
+        <tr><td>6</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/底牌.html">底牌</a></td></tr>
+        <tr><td>7</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/下坠Falling.html">下坠Falling</a></td></tr>
+        <tr><td>8</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/Again.html">Again</a></td></tr>
+        <tr><td>9</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/拼图爱.html">拼图爱</a></td></tr>
+        <tr><td>10</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/人间纵我.html">人间纵我</a></td></tr>
+        <tr><td>11</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/鼎沸.html">鼎沸</a></td></tr>
+        <tr><td>12</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/巫山客——广播剧《二哈和他的白猫师尊》第二季先行ED.html">巫山客——广播剧《二哈和他的白猫师尊》第二季先行ED</a></td></tr>
+        <tr><td>13</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/消散对白.html">消散对白</a></td></tr>
+        <tr><td>14</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/Embers.html">Embers</a></td></tr>
+        <tr><td>15</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/去也.html">去也</a></td></tr>
+        <tr><td>16</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/难评.html">难评</a></td></tr>
+        <tr><td>17</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/奔向——记巫哲《嚣张》.html">奔向——记巫哲《嚣张》</a></td></tr>
+        <tr><td>18</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/蝶之诗.html">蝶之诗</a></td></tr>
+        <tr><td>19</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/舍得.html">舍得</a></td></tr>
+        <tr><td>20</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/将进酒.html">将进酒</a></td></tr>
+        <tr><td>21</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/错时雨.html">错时雨</a></td></tr>
+        <tr><td>22</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/仲夏夜荒原（《某某》原创同人曲）.html">仲夏夜荒原（《某某》原创同人曲）</a></td></tr>
+        <tr><td>23</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/落雪寻花【魔道祖师·蓝忘机问情曲】.html">落雪寻花【魔道祖师·蓝忘机问情曲】</a></td></tr>
+        <tr><td>24</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/千秋载酒——记《将进酒》（14p群像）.html">千秋载酒——记《将进酒》（14p群像）</a></td></tr>
+        <tr><td>25</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/还来天地一襟雪（广播剧《君有疾否》第二季主题曲）.html">还来天地一襟雪（广播剧《君有疾否》第二季主题曲）</a></td></tr>
+        <tr><td>26</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/玫瑰花期.html">玫瑰花期</a></td></tr>
+        <tr><td>27</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/白日梦.html">白日梦</a></td></tr>
+        <tr><td>28</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/不见春.html">不见春</a></td></tr>
+        <tr><td>29</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/策舟春山外——唐酒卿《将进酒》策舟同人歌.html">策舟春山外——唐酒卿《将进酒》策舟同人歌</a></td></tr>
+        <tr><td>30</td><td><a class="song-link" href="http://music.lenovo.cn/MusicPlayerLst/Music0108PlayerGroup/九月底.html">九月底</a></td></tr>
+    </tbody>
+</table>
+
+</body>
+</html>
